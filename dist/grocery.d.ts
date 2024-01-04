@@ -1,8 +1,7 @@
 export declare class Grocery {
-    ID: number;
-    Name: string;
-    Amount: number;
+    ID: number | null;
+    Name: string | null;
+    Amount: number | null;
     IsFinished: boolean;
     IsEdit: boolean;
-    constructor(Name: string, Amount: number, ID?: number, IsFinished?: boolean);
 }
