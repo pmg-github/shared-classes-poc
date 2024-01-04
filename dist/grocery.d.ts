@@ -5,3 +5,7 @@ export declare class Grocery {
     IsFinished: boolean;
     IsEdit: boolean;
 }
+export declare class GroceryInput {
+    Name: string | null;
+    Amount: number | null;
+}
