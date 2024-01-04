@@ -1,5 +1,5 @@
 // Import and re-export your modules
-import { Grocery } from './grocery';
+import { Grocery } from './dist/grocery';
 
 export {
   Grocery
