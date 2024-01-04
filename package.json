@@ -8,9 +8,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",           
-  "typings": "dist",
-  "typescript": {
-    "definition": "dist"
-  }
+  "license": "ISC"
 }
