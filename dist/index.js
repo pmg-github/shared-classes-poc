@@ -1,8 +1,7 @@
 // Import and re-export your modules
-const Grocery = require('./grocery');
-//const module2 = require('./module2/module2');
+import { Grocery } from './grocery';
 
-module.exports = {
+export {
   Grocery
   // Add more exports if you have additional modules
 };
