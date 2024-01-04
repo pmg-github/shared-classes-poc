@@ -1,0 +1,7 @@
+// tsconfig.root.json
+{
+    "compilerOptions": {
+        "outDir": "./"
+      },
+      "files": ["index.ts"]
+  }
