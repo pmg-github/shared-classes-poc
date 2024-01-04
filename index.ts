@@ -1,7 +1,8 @@
 // Import and re-export your modules
-import { Grocery } from './src/grocery';
+import { Grocery, GroceryInput } from './src/grocery';
 
 export {
-  Grocery
+  Grocery,
+  GroceryInput
   // Add more exports if you have additional modules
 };
