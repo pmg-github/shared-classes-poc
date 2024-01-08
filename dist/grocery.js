@@ -29,7 +29,7 @@ class GroceryInput {
 }
 exports.GroceryInput = GroceryInput;
 __decorate([
-    (0, class_validator_1.IsNotEmpty)(),
+    (0, class_validator_1.IsNotEmpty)({ message: 'Naam mag niet leeg zijn' }),
     (0, class_validator_1.IsString)(),
     (0, class_validator_1.MinLength)(3),
     (0, class_validator_1.MaxLength)(20),
