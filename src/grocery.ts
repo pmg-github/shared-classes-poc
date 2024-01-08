@@ -9,7 +9,7 @@ export class Grocery {
 }
 
 export class GroceryInput {
-    @IsNotEmpty()
+    @IsNotEmpty({message: 'Naam mag niet leeg zijn'})
     @IsString()
     @MinLength(3)
     @MaxLength(20)
