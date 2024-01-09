@@ -9,7 +9,7 @@ export class Grocery {
 }
 
 export class GroceryInput {
-    @IsNotEmpty({message: 'Naam mag niet leeg zijn'})
+    @IsNotEmpty({message: 'validationerror.name.not-empty'}) // pass the translation key so this can be used in the front
     @IsString()
     @MinLength(3)
     @MaxLength(20)

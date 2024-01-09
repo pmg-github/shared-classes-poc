@@ -29,7 +29,8 @@ class GroceryInput {
 }
 exports.GroceryInput = GroceryInput;
 __decorate([
-    (0, class_validator_1.IsNotEmpty)({ message: 'Naam mag niet leeg zijn' }),
+    (0, class_validator_1.IsNotEmpty)({ message: 'validationerror.name.not-empty' }) // pass the translation key so this can be used in the front
+    ,
     (0, class_validator_1.IsString)(),
     (0, class_validator_1.MinLength)(3),
     (0, class_validator_1.MaxLength)(20),
