@@ -6,6 +6,13 @@ export class Grocery {
     Amount: number | null = null;
     IsFinished: boolean = false;
     IsEdit: boolean = false;
+
+    constructor(ID:number, Name: string, Amount: number, IsFinished: boolean){
+        this.ID = ID;
+        this.Name = Name;
+        this.Amount = Amount, 
+        this.IsFinished = IsFinished
+    }
 }
 
 export class GroceryInput {

@@ -12,12 +12,16 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.GroceryInput = exports.Grocery = void 0;
 const class_validator_1 = require("class-validator");
 class Grocery {
-    constructor() {
+    constructor(ID, Name, Amount, IsFinished) {
         this.ID = null;
         this.Name = null;
         this.Amount = null;
         this.IsFinished = false;
         this.IsEdit = false;
+        this.ID = ID;
+        this.Name = Name;
+        this.Amount = Amount,
+            this.IsFinished = IsFinished;
     }
 }
 exports.Grocery = Grocery;
