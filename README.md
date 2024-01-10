@@ -9,7 +9,6 @@ Add this project as an npm git dependency to the project you want to use it in.
 npm install --save shared-classes-poc@git+https://github.com/pmg-github/shared-classes-poc.git#main
 ```
 
-
 # Frontend usage
 1. Import the classes you need. (Ensure typescript!):
 
@@ -26,4 +25,11 @@ const data: Grocery[] = await $fetch<Grocery[]>('/api/groceries');
 
 ```ts
 const groceryList: Ref = useState<Grocery[]>('groceryList', () => []);
+```
+
+# Update to latest version
+Git dependencies are only updated after running npm update. If certain classes aren't available, be sure to update to the latest version:
+
+```bash
+npm update shared-classes-poc
 ```
