@@ -6,7 +6,6 @@ Proof of concept for shared classes used across both frontend and backend projec
 1. Add this project as an npm git dependency to the project you want to use it in.
 
 ```bash
-# npm
 npm install --save shared-classes-poc@git+https://github.com/pmg-github/shared-classes-poc.git#main
 ```
 
