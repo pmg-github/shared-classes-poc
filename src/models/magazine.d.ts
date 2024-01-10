@@ -1,4 +1,4 @@
-export declare class MagazineTileView {
+export declare class MagazineTileViewModel {
     reference: string | null;
     title: string | null;
     text: string | null;
@@ -7,7 +7,7 @@ export declare class MagazineTileView {
     isPremium: boolean | null;
     imageUrl: string | null;
 }
-export declare class MagazineArticleView {
+export declare class MagazineArticleViewModel {
     reference: string | null;
     title: string | null;
     text: string | null;
@@ -16,6 +16,7 @@ export declare class MagazineArticleView {
     isPremium: boolean | null;
     imageUrl: string | null;
 }
-export declare class MagazineAdView {
+export declare class MagazineAdViewModel {
+    typeId: number;
     imageUrl: string | null;
 }

@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.MagazineAdView = exports.MagazineArticleView = exports.MagazineTileView = void 0;
-class MagazineTileView {
+exports.MagazineAdViewModel = exports.MagazineArticleViewModel = exports.MagazineTileViewModel = void 0;
+class MagazineTileViewModel {
     constructor() {
         this.reference = null;
         this.title = null;
@@ -12,8 +12,8 @@ class MagazineTileView {
         this.imageUrl = null;
     }
 }
-exports.MagazineTileView = MagazineTileView;
-class MagazineArticleView {
+exports.MagazineTileViewModel = MagazineTileViewModel;
+class MagazineArticleViewModel {
     constructor() {
         this.reference = null;
         this.title = null;
@@ -24,11 +24,12 @@ class MagazineArticleView {
         this.imageUrl = null;
     }
 }
-exports.MagazineArticleView = MagazineArticleView;
-class MagazineAdView {
+exports.MagazineArticleViewModel = MagazineArticleViewModel;
+class MagazineAdViewModel {
     constructor() {
+        this.typeId = 1; // for now only 1 type
         this.imageUrl = null;
     }
 }
-exports.MagazineAdView = MagazineAdView;
+exports.MagazineAdViewModel = MagazineAdViewModel;
 //# sourceMappingURL=magazine.js.map

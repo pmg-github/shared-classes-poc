@@ -1,4 +1,4 @@
-export class MagazineTileView {
+export class MagazineTileViewModel {
     reference: string | null = null;
     title: string | null = null;
     text: string | null = null;
@@ -8,7 +8,7 @@ export class MagazineTileView {
     imageUrl: string | null = null;
 }
 
-export class MagazineArticleView {
+export class MagazineArticleViewModel {
     reference: string | null = null;
     title: string | null = null;
     text: string | null = null;
@@ -18,6 +18,7 @@ export class MagazineArticleView {
     imageUrl: string | null = null;
 }
 
-export class MagazineAdView {
+export class MagazineAdViewModel {
+    typeId: number = 1; // for now only 1 type
     imageUrl: string | null = null;
 }
