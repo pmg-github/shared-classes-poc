@@ -32,4 +32,3 @@ class MagazineAdViewModel {
     }
 }
 exports.MagazineAdViewModel = MagazineAdViewModel;
-//# sourceMappingURL=magazine.js.map

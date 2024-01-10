@@ -1,6 +1,6 @@
 // Import and re-export your modules
-import { Grocery, GroceryInput } from './src/grocery';
-import { MagazineTileViewModel, MagazineArticleViewModel, MagazineAdViewModel } from './src/models/magazine'
+import { Grocery, GroceryInput } from './grocery';
+import { MagazineTileViewModel, MagazineArticleViewModel, MagazineAdViewModel } from './models/magazine'
 
 export {
   Grocery,
