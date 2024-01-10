@@ -16,9 +16,11 @@ export class MagazineArticleViewModel {
     displayAuthor: string | null = null;
     isPremium: boolean | null = null;
     imageUrl: string | null = null;
+    customerReference: string | null = null;
 }
 
 export class MagazineAdViewModel {
     typeId: number = 1; // for now only 1 type
     imageUrl: string | null = null;
+    customerReference: string | null = null;
 }

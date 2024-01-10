@@ -22,6 +22,7 @@ class MagazineArticleViewModel {
         this.displayAuthor = null;
         this.isPremium = null;
         this.imageUrl = null;
+        this.customerReference = null;
     }
 }
 exports.MagazineArticleViewModel = MagazineArticleViewModel;
@@ -29,6 +30,7 @@ class MagazineAdViewModel {
     constructor() {
         this.typeId = 1; // for now only 1 type
         this.imageUrl = null;
+        this.customerReference = null;
     }
 }
 exports.MagazineAdViewModel = MagazineAdViewModel;

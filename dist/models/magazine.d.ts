@@ -15,8 +15,10 @@ export declare class MagazineArticleViewModel {
     displayAuthor: string | null;
     isPremium: boolean | null;
     imageUrl: string | null;
+    customerReference: string | null;
 }
 export declare class MagazineAdViewModel {
     typeId: number;
     imageUrl: string | null;
+    customerReference: string | null;
 }
