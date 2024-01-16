@@ -22,3 +22,8 @@ export declare class MagazineAdViewModel {
     imageUrl: string | null;
     customerReference: string | null;
 }
+export declare class MagazineMetaDataViewModel {
+    title: string | null;
+    portalLogoUrl: string | null;
+    coverImageUrl: string | null;
+}
