@@ -1,9 +1,6 @@
 export declare class MagazineTileViewModel {
     reference: string | undefined;
     title: string | undefined;
-    text: string | undefined;
-    displayDate: Date | undefined;
-    displayAuthor: string | undefined;
     isPremium: boolean | undefined;
     imageUrl: string | undefined;
 }

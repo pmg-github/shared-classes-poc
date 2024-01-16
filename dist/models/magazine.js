@@ -5,9 +5,6 @@ class MagazineTileViewModel {
     constructor() {
         this.reference = undefined;
         this.title = undefined;
-        this.text = undefined;
-        this.displayDate = undefined;
-        this.displayAuthor = undefined;
         this.isPremium = undefined;
         this.imageUrl = undefined;
     }
