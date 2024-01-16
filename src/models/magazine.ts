@@ -30,3 +30,9 @@ export class MagazineMetaDataViewModel {
     portalLogoUrl: string | undefined = undefined;
     coverImageUrl: string | undefined = undefined;
 }
+
+export class MagazineImageArticleCombinationViewModel {
+    reference: string | undefined = undefined;
+    article: MagazineArticleViewModel | null = null;
+    imageUrl: string | undefined = undefined;
+}

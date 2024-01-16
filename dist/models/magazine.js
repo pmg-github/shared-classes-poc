@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.MagazineMetaDataViewModel = exports.MagazineAdViewModel = exports.MagazineArticleViewModel = exports.MagazineTileViewModel = void 0;
+exports.MagazineImageArticleCombinationViewModel = exports.MagazineMetaDataViewModel = exports.MagazineAdViewModel = exports.MagazineArticleViewModel = exports.MagazineTileViewModel = void 0;
 class MagazineTileViewModel {
     constructor() {
         this.reference = undefined;
@@ -43,3 +43,11 @@ class MagazineMetaDataViewModel {
     ;
 }
 exports.MagazineMetaDataViewModel = MagazineMetaDataViewModel;
+class MagazineImageArticleCombinationViewModel {
+    constructor() {
+        this.reference = undefined;
+        this.article = null;
+        this.imageUrl = undefined;
+    }
+}
+exports.MagazineImageArticleCombinationViewModel = MagazineImageArticleCombinationViewModel;
