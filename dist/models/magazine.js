@@ -3,42 +3,43 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.MagazineMetaDataViewModel = exports.MagazineAdViewModel = exports.MagazineArticleViewModel = exports.MagazineTileViewModel = void 0;
 class MagazineTileViewModel {
     constructor() {
-        this.reference = null;
-        this.title = null;
-        this.text = null;
-        this.displayDate = null;
-        this.displayAuthor = null;
-        this.isPremium = null;
-        this.imageUrl = null;
+        this.reference = undefined;
+        this.title = undefined;
+        this.text = undefined;
+        this.displayDate = undefined;
+        this.displayAuthor = undefined;
+        this.isPremium = undefined;
+        this.imageUrl = undefined;
     }
 }
 exports.MagazineTileViewModel = MagazineTileViewModel;
 class MagazineArticleViewModel {
     constructor() {
-        this.reference = null;
-        this.title = null;
-        this.text = null;
-        this.displayDate = null;
-        this.displayAuthor = null;
-        this.isPremium = null;
-        this.imageUrl = null;
-        this.customerReference = null;
+        this.reference = undefined;
+        this.title = undefined;
+        this.text = undefined;
+        this.displayDate = undefined;
+        this.displayAuthor = undefined;
+        this.isPremium = undefined;
+        this.imageUrl = undefined;
+        this.customerReference = undefined;
     }
 }
 exports.MagazineArticleViewModel = MagazineArticleViewModel;
 class MagazineAdViewModel {
     constructor() {
         this.typeId = 1; // for now only 1 type
-        this.imageUrl = null;
-        this.customerReference = null;
+        this.imageUrl = undefined;
+        this.customerReference = undefined;
     }
 }
 exports.MagazineAdViewModel = MagazineAdViewModel;
 class MagazineMetaDataViewModel {
     constructor() {
-        this.title = null;
-        this.portalLogoUrl = null;
-        this.coverImageUrl = null;
+        this.title = undefined;
+        this.portalLogoUrl = undefined;
+        this.coverImageUrl = undefined;
     }
+    ;
 }
 exports.MagazineMetaDataViewModel = MagazineMetaDataViewModel;

@@ -1,32 +1,32 @@
 export class MagazineTileViewModel {
-    reference: string | null = null;
-    title: string | null = null;
-    text: string | null = null;
-    displayDate: Date | null = null;
-    displayAuthor: string | null = null;
-    isPremium: boolean | null = null;
-    imageUrl: string | null = null;
+    reference: string | undefined = undefined;
+    title: string | undefined = undefined;
+    text: string | undefined = undefined;
+    displayDate: Date | undefined = undefined;
+    displayAuthor: string | undefined = undefined;
+    isPremium: boolean | undefined = undefined;
+    imageUrl: string | undefined = undefined;
 }
 
 export class MagazineArticleViewModel {
-    reference: string | null = null;
-    title: string | null = null;
-    text: string | null = null;
-    displayDate: Date | null = null;
-    displayAuthor: string | null = null;
-    isPremium: boolean | null = null;
-    imageUrl: string | null = null;
-    customerReference: string | null = null;
+    reference: string | undefined = undefined;
+    title: string | undefined = undefined;
+    text: string | undefined = undefined;
+    displayDate: Date | undefined = undefined;
+    displayAuthor: string | undefined = undefined;
+    isPremium: boolean | undefined = undefined;
+    imageUrl: string | undefined = undefined;
+    customerReference: string | undefined = undefined;
 }
 
 export class MagazineAdViewModel {
     typeId: number = 1; // for now only 1 type
-    imageUrl: string | null = null;
-    customerReference: string | null = null;
+    imageUrl: string | undefined = undefined;
+    customerReference: string | undefined = undefined;
 }
 
 export class MagazineMetaDataViewModel {
-    title: string | null = null;
-    portalLogoUrl: string | null = null;
-    coverImageUrl: string | null = null;
+    title: string | undefined = undefined;;
+    portalLogoUrl: string | undefined = undefined;
+    coverImageUrl: string | undefined = undefined;
 }
