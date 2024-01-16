@@ -1,6 +1,12 @@
 // Import and re-export your modules
 import { Grocery, GroceryInput } from './grocery';
-import { MagazineTileViewModel, MagazineArticleViewModel, MagazineAdViewModel, MagazineMetaDataViewModel, MagazineImageArticleCombinationViewModel } from './models/magazine'
+import { MagazineTileViewModel, 
+  MagazineArticleViewModel, 
+  MagazineAdViewModel, 
+  MagazineMetaDataViewModel, 
+  MagazineImageArticleCombinationViewModel,
+  MagazineCustomerTileViewModel 
+} from './models/magazine'
 
 export {
   Grocery,
@@ -9,6 +15,7 @@ export {
   MagazineArticleViewModel,
   MagazineAdViewModel,
   MagazineMetaDataViewModel,
-  MagazineImageArticleCombinationViewModel
+  MagazineImageArticleCombinationViewModel,
+  MagazineCustomerTileViewModel
   // Add more exports if you have additional modules
 };

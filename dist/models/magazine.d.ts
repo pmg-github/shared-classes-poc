@@ -10,6 +10,7 @@ export declare class MagazineTileViewModel {
 export declare class MagazineArticleViewModel {
     reference: string | undefined;
     title: string | undefined;
+    description: string | undefined;
     text: string | undefined;
     displayDate: Date | undefined;
     displayAuthor: string | undefined;
@@ -31,4 +32,8 @@ export declare class MagazineImageArticleCombinationViewModel {
     reference: string | undefined;
     article: MagazineArticleViewModel | null;
     imageUrl: string | undefined;
+}
+export declare class MagazineCustomerTileViewModel {
+    name: string | undefined;
+    logoUrl: string | undefined;
 }
