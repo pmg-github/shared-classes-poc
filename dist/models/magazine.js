@@ -51,8 +51,11 @@ class MagazineImageArticleCombinationViewModel {
 exports.MagazineImageArticleCombinationViewModel = MagazineImageArticleCombinationViewModel;
 class MagazineCustomerTileViewModel {
     constructor() {
+        this.customerReference = undefined;
         this.name = undefined;
+        this.brand = undefined;
         this.logoUrl = undefined;
+        this.redirectUrl = undefined;
     }
 }
 exports.MagazineCustomerTileViewModel = MagazineCustomerTileViewModel;

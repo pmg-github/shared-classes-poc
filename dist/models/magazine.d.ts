@@ -31,6 +31,9 @@ export declare class MagazineImageArticleCombinationViewModel {
     imageUrl: string | undefined;
 }
 export declare class MagazineCustomerTileViewModel {
+    customerReference: string | undefined;
     name: string | undefined;
+    brand: string | undefined;
     logoUrl: string | undefined;
+    redirectUrl: string | undefined;
 }

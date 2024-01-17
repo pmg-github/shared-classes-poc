@@ -36,6 +36,9 @@ export class MagazineImageArticleCombinationViewModel {
 }
 
 export class MagazineCustomerTileViewModel {
+    customerReference: string | undefined = undefined; 
     name: string | undefined = undefined;
+    brand: string | undefined = undefined;
     logoUrl: string | undefined = undefined;
+    redirectUrl: string | undefined = undefined;
 }
