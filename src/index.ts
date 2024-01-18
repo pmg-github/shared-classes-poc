@@ -8,6 +8,10 @@ import { MagazineTileViewModel,
   MagazineCustomerTileViewModel 
 } from './models/magazine'
 
+import { OrderModel, 
+  OrderFileModel
+} from './models/order'
+
 export {
   Grocery,
   GroceryInput,
@@ -16,6 +20,8 @@ export {
   MagazineAdViewModel,
   MagazineMetaDataViewModel,
   MagazineImageArticleCombinationViewModel,
-  MagazineCustomerTileViewModel
+  MagazineCustomerTileViewModel,
+  OrderModel, 
+  OrderFileModel
   // Add more exports if you have additional modules
 };
