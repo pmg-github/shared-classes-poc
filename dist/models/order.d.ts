@@ -3,4 +3,6 @@ export declare class OrderModel {
 }
 export declare class OrderFileModel {
     reference: string | undefined;
+    name: string | undefined;
+    url: string | undefined;
 }

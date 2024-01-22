@@ -10,6 +10,8 @@ exports.OrderModel = OrderModel;
 class OrderFileModel {
     constructor() {
         this.reference = undefined;
+        this.name = undefined;
+        this.url = undefined;
     }
 }
 exports.OrderFileModel = OrderFileModel;
