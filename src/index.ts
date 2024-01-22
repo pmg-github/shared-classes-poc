@@ -5,7 +5,8 @@ import { MagazineTileViewModel,
   MagazineAdViewModel, 
   MagazineMetaDataViewModel, 
   MagazineImageArticleCombinationViewModel,
-  MagazineCustomerTileViewModel 
+  MagazineCustomerTileViewModel,
+  NewsletterTileViewModel
 } from './models/magazine'
 
 import { OrderModel, 
@@ -22,6 +23,7 @@ export {
   MagazineImageArticleCombinationViewModel,
   MagazineCustomerTileViewModel,
   OrderModel, 
-  OrderFileModel
+  OrderFileModel,
+  NewsletterTileViewModel
   // Add more exports if you have additional modules
 };
